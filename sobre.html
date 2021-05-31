@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/sobre.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <section class="pai">
+      <nav class="container">
+        <div class="logo">
+        </div>
+        <div class="1">
+          <a href="./index.html" class="navLinks">Home</a>
+        </div>
+        <div class="2">
+          <a href="./sobre.html" class="navLinks">Sobre</a>
+        </div>
+        <div class="3">
+          <a href="./produtos.html" class="navLinks">Produtos</a>
+        </div>
+      </nav>
+    </section>
+    <section class="header-site">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="text-center" id="bemvindo">Sinta-se convidado</h1>
+
+            <p class="lead text-center" id="frase-init">Venha conhecer a nossa empresa</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <section class="content-size">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">A CST é um dos maiores fabricantes de isoladores da América Latina, há 65 anos
+            fornecendo produtos de alta qualidade para mais de 40 países.</h1>
+          <br>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./img/sobre_esq.jpg">
+          <div class="caption text-center">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="caption text-center">
+            <p>
+
+              Com 220 colaboradores e um parque fabril de 25 mil m2 em uma área de 76 mil m2, dispõe de toda a
+              infraestrutura necessária para desenvolver, produzir e distribuir para todo o mundo.
+
+
+
+              Nossa capacidade de produção mensal é de 400 toneladas de porcelana e 25 mil isoladores de vidro.
+
+
+
+              Garantir a qualidade e a confiabilidade técnica dos produtos é um dos principais objetivos da CST, que
+              investe pesado em capacitação e treinamentos para a equipe, tendo em vista o fornecimento de isoladores
+              atendendo plenamente as características e requisitos técnicos aplicáveis, e almejando a máxima satisfação
+              dos clientes.
+
+
+
+              Localizada estrategicamente há 40 km do aeroporto internacional de Viracopos e 340 km do porto de Santos,
+              distribuímos com agilidade para todas as regiões do Brasil e do Mundo.
+            </p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="./img/sobre_dir.jpg">
+          <div class="caption text-center">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <section class="footer-size">
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <img src="./img/logo.png" width=190>
+              <ul>
+                <p>Av. Dr. Jorge Duprat Figueiredo, 901</p>
+                <p>CEP: 13920-000 - Pedreira - São Paulo - Brasil</p>
+                <p>Tel.: 00 55 19 3852 8323 | 00 55 19 4040 4187</p>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Vendas Nacional</h3>
+              <ul>
+                <p>vendas@cst-isoladores.com.br</p>
+                <p>Tel.: 55 19 3852-8323 | 55 19 4040-4187</p>
+                <p>Cel.: 55 19 99786-5890</p>
+              </ul>
+            </div>
+            <div class="col-md-6 item">
+              <h3>Vendas Exportação</h3>
+              <ul>
+                <p>comex@cst-isoladores.com.br</p>
+                <p>Tel.: 00 55 19 3852 8307 | 00 55 19 4040 4187</p>
+              </ul>
+            </div>
+            <div class="item social">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-whatsapp"></a>
+              <a href="#" class="fa fa-twitter"></a>
+            </div>
+          </div>
+          <p class="copyright">Company Name © 2018</p>
+        </div>
+      </footer>
+    </div>
+
+  </section>
+
+
+  <script>
+    function typeWriter(elemento) {
+      const textoArray = elemento.innerHTML.split('');
+      elemento.innerHTML = '';
+      textoArray.forEach((letra, i) => {
+        setTimeout(() => elemento.innerHTML += letra, 75 * i)
+      });
+    }
+
+
+    const titulo = document.querySelector('p');
+    typeWriter(titulo);
+  </script>
+</body>
+
+</html>

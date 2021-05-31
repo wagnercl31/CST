@@ -87,26 +87,36 @@ nav {
 
 
  .header-site  {
-    background-image: url(../img/home.jpg);
+    background-image: url(../img/back2.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-    color:#ffffff;
+    color:#faf6f6;
     padding-top: 300px;
-    padding-bottom: 300px;
- } 
+    padding-bottom: 300px;  
+ }
+
+ .header-site p {
+  font-size: 10px;
+ }
 
  .content-site {
      padding-top: 200px;
      padding-bottom: 200px;
      
  }
+ .col-sm-4 p{
+   padding:20px auto;
+ }
 
  .text-center {
    justify-content: center;
    padding: 20px;
  }
+
+
+
  .text-center h3 {
     margin-right: 90px;
  }
@@ -133,12 +143,12 @@ nav {
 }
 
 .thumbnail p {
-  padding-top: 20px;
+  padding-top: 20px 20px;
 }
 
 .thumbnail img {
   height: 350px;
-  padding:20px;
+  padding:35px;
 }
 
  .footer-site {
